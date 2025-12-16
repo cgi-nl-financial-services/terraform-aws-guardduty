@@ -16,7 +16,7 @@ resource "aws_guardduty_malware_protection_plan" "this" {
     }
   }
 
-    tags = {
+  tags = {
     Name = "${var.name}-${var.environment}"
   }
 
